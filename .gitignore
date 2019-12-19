@@ -9,3 +9,14 @@ out
 gen
 .gitignore
 changgou-eureka/src/test/
+changgou-common-db/src/
+changgou-common/src/main/resources/
+changgou-common/src/test/
+changgou-eureka/target/
+changgou-service-api/changgou-service-goods-api/src/main/resources/
+changgou-service-api/changgou-service-goods-api/src/test/
+changgou-service/changgou-service-goods/src/test/
+changgou-common/target/
+changgou-common-db/target/
+changgou-service-api/changgou-service-goods-api/target/
+changgou-service/changgou-service-goods/target/
