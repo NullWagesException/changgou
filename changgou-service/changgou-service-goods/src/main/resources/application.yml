@@ -18,11 +18,7 @@ feign:
   hystrix:
     enabled: true
 
-# 使用tk，mybatis可以不配置
-mybatis:
-  # spring boot集成mybatis的方式打印sql
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#mybatis的配置 可以不配置  需要整合通用mapper
 #mybatis:
 #  configuration:
 #    map-underscore-to-camel-case: true

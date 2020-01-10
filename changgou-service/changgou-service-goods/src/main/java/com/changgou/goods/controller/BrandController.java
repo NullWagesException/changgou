@@ -119,6 +119,13 @@ public class BrandController {
      */
     @GetMapping
     public Result<List<Brand>> findAll(){
+        try {
+            System.out.println("aaaaa=====");
+            Thread.sleep(3000);
+            System.out.println("bbbb=====");
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         //调用BrandService实现查询所有Brand
         List<Brand> list = brandService.findAll();
         return new Result<List<Brand>>(true, StatusCode.OK,"查询成功",list) ;
