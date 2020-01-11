@@ -10,11 +10,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>changgou-web</artifactId>
-    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+
     <description>
-        所有涉及页面渲染的微服务工程
+        web工程所在的父工程
     </description>
+    <modules>
+        <module>changgou-web-search</module>
+        <module>changgou-web-item</module>
+    </modules>
 
 
 </project>
