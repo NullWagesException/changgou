@@ -21,7 +21,7 @@ public class GatewayWebApplication {
         SpringApplication.run(GatewayWebApplication.class,args);
     }
 
-    @Bean
+    @Bean("ipKeyResolver")
     public KeyResolver userKeyResolver(){
         return new KeyResolver() {
             @Override
